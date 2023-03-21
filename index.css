@@ -61,6 +61,10 @@ p {
 	font-size: 2rem;
 }
 
+h1 {
+	text-align: center;
+}
+
 h3 {
 	font-size: 3rem;
 }
@@ -108,7 +112,7 @@ button:active {
 
 .btn-outline {
 	background-color: transparent;
-	border: 1.5px solid var(--color-white);
+	border: 1.9px solid var(--color-white);
 }
 
 .btn-img {
@@ -194,6 +198,7 @@ button:active {
 
 #logos img {
 	width: 50%;
+	max-width: 50rem;
 }
 
 #contact {
@@ -231,4 +236,139 @@ footer ul {
 	display: flex;
 	gap: 2rem;
 	justify-content: center;
+}
+
+.mobile {
+	display: none;
+}
+
+.closed {
+	display: none;
+}
+
+@media (max-width: 1050px) {
+	.btn-small {
+		font-size: 2rem;
+		height: 5rem;
+	}
+	.img-icon {
+		padding: 0;
+		height: 5rem;
+	}
+}
+@media (max-width: 850px) {
+	.menu {
+		height: 5rem;
+		width: 5rem;
+	}
+	.changing-menu {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+
+		width: 100vw;
+		height: 100vh;
+		background-color: var(--color-background-light);
+	}
+
+	.changing-menu ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+		padding: 10rem 6rem;
+		gap: 1rem;
+	}
+
+	.changing-menu .img-icon {
+		height: 5rem;
+	}
+
+	.changing-menu ion-icon {
+		width: 5rem;
+		height: 5rem;
+	}
+
+	.mobile-closed {
+		display: none;
+	}
+	.mobile {
+		display: flex;
+	}
+	#hero-section h1 {
+		font-size: 6rem;
+	}
+	#hero-section h3 {
+		font-size: 2.5rem;
+		font-weight: 100;
+	}
+	#hero-section div {
+		margin-top: 2rem;
+
+		gap: 3rem;
+	}
+
+	button {
+		font-size: 2.5rem;
+		font-weight: 700;
+		background-color: var(--color-red);
+		border: none;
+		border-radius: 7px;
+		padding: 0.75rem 1.5rem;
+	}
+	#video {
+		max-width: 100vw;
+	}
+
+	#reel-section div {
+		margin-top: 0;
+		margin-bottom: 2rem;
+		gap: 2rem;
+	}
+
+	section {
+		padding: 3rem 1rem;
+	}
+
+	#logos {
+		padding: 5rem 1rem;
+	}
+
+	#logos img {
+		width: 90%;
+	}
+
+	#contact h2 {
+		font-size: 3rem;
+		padding: 0.5rem 2rem;
+		margin: 0;
+	}
+	#contact h3 {
+		font-size: 1.5rem;
+	}
+	.img-icon {
+		object-fit: cover;
+		max-width: 45vw;
+		height: fit-content;
+	}
+	footer {
+		padding: 0.75rem 3rem;
+		flex-direction: column;
+		gap: 5rem;
+	}
+
+	footer ul {
+		justify-content: flex-start;
+	}
+
+	footer div {
+		gap: 1rem;
+	}
+
+	.icon-social {
+		width: 4rem;
+		gap: 1rem;
+		height: 4rem;
+	}
 }
