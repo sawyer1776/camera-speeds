@@ -266,6 +266,7 @@ footer ul {
 		top: 0;
 		right: 0;
 		display: block;
+		z-index: 1000;
 
 		width: 100vw;
 		height: 100vh;
@@ -328,7 +329,7 @@ footer ul {
 	}
 
 	section {
-		padding: 3rem 1rem;
+		padding: 12rem 1rem;
 	}
 
 	#logos {
