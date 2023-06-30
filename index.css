@@ -278,6 +278,10 @@ footer ul {
 		height: 5rem;
 		width: 5rem;
 	}
+
+	nav {
+		max-height: 75px;
+	}
 	.changing-menu {
 		position: absolute;
 		top: 0;
