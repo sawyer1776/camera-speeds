@@ -381,14 +381,14 @@ footer ul {
 		font-size: 1.5rem;
 	}
 	.img-icon {
-		object-fit: cover;
+		object-fit: contain;
 		max-width: 45vw;
 		height: 5rem;
 	}
 
-	.img-logo {
+	/* .img-logo {
 		height: 5rem;
-	}
+	} */
 	footer {
 		padding: 0.75rem 3rem;
 		flex-direction: column;
