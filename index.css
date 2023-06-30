@@ -111,11 +111,6 @@ button:active {
 	transition: all 75ms;
 }
 
-.btn-small {
-	font-size: var(--font-s-2);
-	height: 6.5rem;
-}
-
 .btn-outline {
 	background-color: transparent;
 	border: 1.9px solid var(--color-white);
@@ -125,6 +120,10 @@ button:active {
 	padding: 0;
 	background-color: transparent;
 	height: fit-content;
+}
+.btn-small {
+	font-size: var(--font-s-2);
+	height: 6.5rem;
 }
 
 .img-icon {
@@ -162,7 +161,6 @@ button:active {
 	height: calc(100vh + 5px);
 	justify-content: center;
 	border-bottom: 3px solid var(--color-red);
-	margin-top: 5rem;
 	background-image: linear-gradient(
 		135deg,
 		#2a2a2a,
@@ -280,11 +278,11 @@ footer ul {
 	}
 
 	nav {
-		max-height: 75px;
+		/* max-height: 75px; */
 	}
 
 	.nav-list {
-		max-height: 75px;
+		/* max-height: 75px; */
 	}
 	.changing-menu {
 		position: absolute;
