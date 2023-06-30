@@ -28,7 +28,8 @@ body {
 
 nav {
 	width: 100vw;
-	max-height: 75px;
+	height: fit-content;
+	max-height: 125px;
 }
 
 .body-scroll-hidden {
@@ -142,6 +143,8 @@ button:active {
 	top: 0;
 	width: 100%;
 	min-width: 250px;
+	height: fit-content;
+	max-height: 125px;
 	z-index: 9999;
 }
 
