@@ -28,6 +28,7 @@ body {
 
 nav {
 	width: 100vw;
+	max-height: 75px;
 }
 
 .body-scroll-hidden {
