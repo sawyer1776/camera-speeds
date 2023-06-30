@@ -253,6 +253,10 @@ footer ul {
 	justify-content: center;
 }
 
+.img-logo {
+	height: 6.5rem;
+}
+
 .mobile {
 	display: none;
 }
@@ -270,6 +274,9 @@ footer ul {
 		padding: 0;
 		height: 5rem;
 	}
+	.img-logo {
+		height: 5rem;
+	}
 }
 @media (max-width: 850px) {
 	.menu {
@@ -278,11 +285,11 @@ footer ul {
 	}
 
 	nav {
-		/* max-height: 75px; */
+		max-height: 75px;
 	}
 
 	.nav-list {
-		/* max-height: 75px; */
+		max-height: 75px;
 	}
 	.changing-menu {
 		position: absolute;
@@ -376,7 +383,11 @@ footer ul {
 	.img-icon {
 		object-fit: cover;
 		max-width: 45vw;
-		height: fit-content;
+		height: 5rem;
+	}
+
+	.img-logo {
+		height: 5rem;
 	}
 	footer {
 		padding: 0.75rem 3rem;
